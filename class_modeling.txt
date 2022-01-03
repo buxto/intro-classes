@@ -1,0 +1,36 @@
+Animal
+-------
++ scientific_name: string
++ pettable: boolean
++ alive_status: boolean
+-------
++ move()
++ eat()
++ reproduce()
++ sleep()
++ die()
+
+Book
+-------
++ title: string
++ author: string
++ edition: integer
++ coauthors: list[string], NULLABLE
++ date: string
++ original_pub_date: string
++ publisher: string
++ genre: string
+-------
+
+Vehicle
+-------
++ model: string
++ manufacturer: string
++ needs_repairs: boolean
++ year: string
++ engine_type: string
+-------
++ drive()
++ park()
++ crash()
++ repair()
